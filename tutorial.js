@@ -27,3 +27,26 @@ function myFunction(name, birthdate) {
 }
 
 myFunction("john", 1333)
+
+/* Example of real life
+objects, properties, and methods
+*/
+
+// In real life a car is an object
+// a car has properties like weight, color, etc.
+// a car has methods like start, stop
+
+/*
+car.name = flat (properties)
+car.start() (method)
+
+car.model (properties)
+car.drive (method)
+
+car.weight (properties)
+car.brake (method)
+*/
+
+var car = {color: "Black", model : "Fiat", weight : 200};
+car["model"] = "BMW"
+console.log(car["model"])
