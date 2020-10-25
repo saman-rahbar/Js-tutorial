@@ -13,3 +13,17 @@ z = 32;
 
 sum = x + y + z;
 console.log(sum)
+
+// Javascript code blocks
+// The purpose of code blocks is to define statements
+// to be executed together
+
+
+function myFunction(name, birthdate) {
+    var sam = name;
+    var birthdaye = birthdate;
+    console.log(sam + " " + birthdaye);
+    return (sam + " " + birthdaye);
+}
+
+myFunction("john", 1333)
